@@ -1,16 +1,20 @@
-
 import './App.css'
-import USeStateObject from './ReactTutorials/UseState/USeStateObject'
+import CompA from './ReactTutorials/ContextAPI/CompA'
+import LangComp from './ReactTutorials/ContextsAPI/LangComp'
+import JSX1 from './ReactTutorials/JSX/JSX1'
+
 function App() {
- 
-  return ( 
+
+  return (
     <div>
-      {/* <USeStateArrays2 /> */}
-      <USeStateObject />
-    
+      <LangComp />
+      <br /> <hr /> <br />
+      <CompA />
+      <br /> <hr /> <br />
+      <JSX1 />
     </div>
   )
-  
+
 }
 export default App
 
